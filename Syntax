@@ -1,0 +1,7 @@
+@NoNull
+  def: demands that the assigned method no return a null value
+    ex: public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recview_list, parent, false);
+        ViewHolder holder = new ViewHolder(view);
+        return holder;
+  
