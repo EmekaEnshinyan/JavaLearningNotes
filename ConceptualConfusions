@@ -1,0 +1,6 @@
+in this example:
+        Glide.with(context)
+            .asBitmap()
+            .load(contacts.get(position).getImageUrl());
+ 
+ you do not insert the ; until the end of the load function. I do not see why.
