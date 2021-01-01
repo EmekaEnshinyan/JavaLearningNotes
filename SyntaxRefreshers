@@ -7,4 +7,4 @@
   
 --Variables--
 
-  def: there are two types. PRIMITIVE (holds simple data/info) and OBJECT REFERENCE (
+  def: there are two types. PRIMITIVE (holds simple data/info) and OBJECT REFERENCE (variables that do not hold the object, but point to it ex: Dog fido = new Dog();)
