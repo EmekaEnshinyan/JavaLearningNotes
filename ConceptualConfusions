@@ -5,3 +5,5 @@ in this example:
  
  you do not insert the ; until the end of the load function. I do not see why.
         #THE COMPILER READS IT AS IF THE TEXT IS ORGANIZED LIKE THIS: Glide.with(context).asBitmap().load(contacts.get(position).getImageURL());
+        
+Why is the super modifier needed within nested methods
