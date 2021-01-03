@@ -1,0 +1,7 @@
+--HEAP--
+
+when a reference variable points/refers to an object, it will remain "in use", i.e. the heap
+
+--GARBAGE COLLECTION--
+
+if, for example, two reference variables point to one object (a = b), then the previously created object will be eligible for GC
