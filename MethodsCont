@@ -1,0 +1,8 @@
+--DEF--
+Blocks of code that can be called from another part of the program
+  can have parameters that allow passing of data
+  can return info to the part of program that called them
+  methods end as soon as they reach a return statement
+  
+--VOID--
+return is not required unless a return type in parameters is required to be passed
