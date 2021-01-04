@@ -7,3 +7,5 @@ in this example:
         #THE COMPILER READS IT AS IF THE TEXT IS ORGANIZED LIKE THIS: Glide.with(context).asBitmap().load(contacts.get(position).getImageURL());
         
 Why is the super modifier needed within nested methods
+
+Is there any reason to assign attributes for methods to call rather than setting parameters or vice versa?
