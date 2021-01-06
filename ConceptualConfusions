@@ -1,11 +1,3 @@
-in this example:
-        Glide.with(context)
-            .asBitmap()
-            .load(contacts.get(position).getImageUrl());
- 
- you do not insert the ; until the end of the load function. I do not see why.
-        #THE COMPILER READS IT AS IF THE TEXT IS ORGANIZED LIKE THIS: Glide.with(context).asBitmap().load(contacts.get(position).getImageURL());
-        
 Why is the super modifier needed within nested methods
 
-Is there any reason to assign attributes for methods to call rather than setting parameters or vice versa?
+Is there any reason to assign attributes for methods to call rather than setting parameters or vice versa? how exactly is the process different?
