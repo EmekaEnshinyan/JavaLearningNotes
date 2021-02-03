@@ -1,0 +1,25 @@
+*Iterating over a string is useful when trying to get the length of a string or reading a string and
+building another.
+  Basic Template:
+  int x = Word.length();
+  char y = word.charAt(x - 1); <-- need "- 1" to avoid outofboundsexception error
+  
+  ex: Reversing a string
+  public static reverse(String s){
+  String r = "";
+  for (int i = s.length() - 1; i >=0; i--){
+  r =+ s.charAt(i);
+  }
+  return r;
+  }
+  
+*You can also use indexOf() to search for a specific char of a string
+  ex: String fruit = "banana";
+      int index = fruit.indexOf('a'); <-- this returns 1
+
+*Accessing substrings
+  ex: String fruit = "banana";
+  fruit.substring(0,3); <-- returns banana
+  NOTE: if only one argument is provided for substring method, then it will return the corresponding
+        point in index and then the rest of the string.
+      
