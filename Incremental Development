@@ -1,17 +1,18 @@
 A practice of writing code properly and understanding the Flow of Execution
 
+*It is better to code and compile smaller blocks of code rather than writing a large amount. This
+  will reduce the amount of debugging needed.
+*Tips
+  1) Scaffold the code and creates stubs when appropriate
+    Scaffolding def: writing out print statements to test code which will not be a part of the final product.
+    Stubs def: an outline for a method
+  2) use return values - when invoking a method that's void, return nothing. If
+    there is a value, return the result/expression/etc. 
+  3) make use of temporary boolean values to test
+
 Flow of Execution def: programs rnu in a specific way, which is not top to bottom:
                        1) reaads the first statemnt in the main method
                        2)if the statement is a method, then it goes to corresponding method
                          and invokes that method
                        3) the arguments are evaluated then the parameters are assigned
                          based on whatever vlaues to the parameters
-
-*It is better to code and compile smaller blocks of code rather than writing a large amount. This
-  will reduce the amount of debugging needed.
-*Tips
-  1) Scaffold the code 
-    Scaffolding def: writing out print statements to test code which will not be a part of the final product.
-  2) use return values - when invoking a method that's void, return nothing. If
-    there is a value, return the result/expression/etc. 
-  3) make use of temporary boolean values to test
