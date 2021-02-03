@@ -1,0 +1,5 @@
+*Compile Time Error def: an error in source code that makes it impossible to compile, i.e. syntax error
+
+*Run Time Error def: makes it impossible to run in completion. The program stops at a point, i.e. exception error
+
+*Logic Error def: the program runs and the syntax is sound, but the output isn't what was intended (e.g. Apple's gotfail bug)
