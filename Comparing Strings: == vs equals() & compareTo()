@@ -1,0 +1,9 @@
+*Using "==" is a poor way to compare strings as each string refers to a unique object, each of which is allocated to memory
+
+*Better method is to use equals()
+  ex: String fruit = in.nextLine();
+      if )fruit.equals("yes")){
+      ...
+      }
+
+*compareTo() can check which string compoes first in the alphabet (for example)
