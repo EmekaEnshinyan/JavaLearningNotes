@@ -1,0 +1,10 @@
+*Creating an Array
+  ex: int[] x;
+      String[] y;
+      
+      x = new int[5]
+      y = new String[car]
+
+*Can create a separated sequencde of elements enclosed in braces
+  ex: int[] a = {1, 2, 3};
+      
