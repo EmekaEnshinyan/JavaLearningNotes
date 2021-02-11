@@ -6,5 +6,18 @@
       y = new String[car]
 
 *Can create a separated sequencde of elements enclosed in braces
-  ex: int[] a = {1, 2, 3};
+  ex: int[] a = {1, 2, 3, 4};
       
+*Accessing an array
+  common way to access arrays is through iteration using tools such
+  as for and while loops. This is also called TRAVERSING an array.
+  ex: 
+    int i = 0;
+    while (i < 4){
+    System.out.print(a[i]);
+    i++
+    }
+  
+
+  
+
