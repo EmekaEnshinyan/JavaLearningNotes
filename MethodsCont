@@ -5,4 +5,13 @@ Blocks of code that can be called from another part of the program
   methods end as soon as they reach a return statement
   
 --VOID--
-return is not required unless a return type in parameters is required to be passed
+return is not required unless a return type in parameters is required to be passed.
+Otherwise the desired return value is placed after static
+
+Ex:
+public static double divide(int a result){
+  b = 4;
+  a = 2;
+  result = b/a;
+  System.out.print(result);
+}
