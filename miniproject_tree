@@ -1,0 +1,22 @@
+// Define your tree class in this file!
+public class Tree{
+
+  public static void main(String[] args){
+    /*will introduce itself to user and then print a tree on the screen*/
+    System.out.println("Here's to gaining a comprehensive understanding of Java. Welcome to the tree app.");
+    System.out.println("A tree will be planted on the screen.");
+    System.out.println("     *   ");
+    System.out.println("    ***  ");
+    System.out.println("   ***** ");
+    System.out.println("  *******");
+    System.out.println(" *********");
+    System.out.println("  *******");
+    System.out.println(" *********");
+    System.out.println("***********");
+    System.out.println("    ***   ");
+    System.out.println("    ***   ");
+    System.out.println("    ***   ");
+
+
+  }
+}
