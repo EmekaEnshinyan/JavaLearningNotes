@@ -15,3 +15,14 @@ public class Magic {
 
 	}
 }
+-------------------
+//shortened version
+public class Magic{
+	public static void main(String[] args){
+	int myNumber = 5;
+	int magicNumber = (magicNumber + magicNumber) /2;
+	
+	System.out.println(magicNumber);
+	
+	}
+}
