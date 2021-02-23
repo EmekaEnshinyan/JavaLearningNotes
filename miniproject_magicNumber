@@ -1,0 +1,17 @@
+public class Magic {
+	public static void main(String[] args) {
+    //the original number
+    int myNumber = 10000;
+    //might be able to shorten the operator
+    int stepOne = myNumber * myNumber;
+    int stepTwo = stepOne + myNumber;
+    int stepThree = stepTwo / myNumber;
+    int stepFour = stepThree + 17;
+    int stepFive = stepFour - myNumber;
+    int stepSix = stepFive / 6;
+    //will always output 3 regardless of myNumber value
+    System.out.println(stepSix);
+    System.out.println(magicNumber);
+
+	}
+}
