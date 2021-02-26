@@ -2,3 +2,19 @@
   1:40pm
   I am continuinig with codecademy (CA) and have reached the methods section. I have been wondering if an efficient step to take that would (hopefully) maximize my progress and 
   get my portfolio hire-ready is to learn Spring and make a small application in tandem to working through CA and mastering the fundamentals of java.
+  
+  What is the difference between Maven and Gradle projects? 
+  
+  I have found that intelliji requires the premium edition in order to use spring tools. So I switched to vs code. 
+  
+  Spring has successfully been set up on vs code.
+  
+  2:44pm
+  Upon further analysis of some code, I still don't feel I have a strong understanding of the dot operator when working with methods. Review required.
+  from java in a nutshell pg 49: :An object is a collection of data and methods that operate on that data; the data
+fields and methods of an object are called its members. The dot (.) operator
+accesses these members. If o is an expression that evaluates to an object reference
+(or a class name), and f is the name of a field of the class, o.f evaluates to
+the value contained in that field. If m is the name of a method, o.m refers to that
+method and allows it to be invoked using the () operator shown later."
+  
