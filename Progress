@@ -20,3 +20,5 @@ method and allows it to be invoked using the () operator shown later."
   visual: OBJECT ----- data "we work for OBJECT"                          OBJECT wants to evaluate data so OBJECT.data
                     \                                                     OBJECT wants to call method so OBJECT.method
                      \ methods "we talk with data and work for OBJECT"  |  
+   
+   I need to review the nature of constructors.
