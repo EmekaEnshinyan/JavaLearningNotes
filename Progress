@@ -17,4 +17,6 @@ accesses these members. If o is an expression that evaluates to an object refere
 (or a class name), and f is the name of a field of the class, o.f evaluates to
 the value contained in that field. If m is the name of a method, o.m refers to that
 method and allows it to be invoked using the () operator shown later."
-  
+  visual: OBJECT ----- data "we work for OBJECT"                          OBJECT wants to evaluate data so OBJECT.data
+                    \                                                     OBJECT wants to call method so OBJECT.method
+                     \ methods "we talk with data and work for OBJECT"  |  
