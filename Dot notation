@@ -1,0 +1,85 @@
+class Dog{ 
+
+	//properties of the dog class 	int age; 
+
+	int height; 
+
+	double weight; 
+
+	String name; 
+
+	boolean isAsleep = false; 
+
+	 
+
+	//methods of the dog class 
+
+	public String bark(){ 
+
+		return 'woof'; 
+
+	}  
+
+ 
+
+	public boolean isAsleep(){ 
+
+		return isAsleep; 
+
+	} 
+
+
+
+	public void setName(String name){ 
+
+		this.name = name; 
+
+	} 
+
+}  
+
+So this is a class I have just created representing a dog. It is very basic with just some properties for the dog and a few methods.
+
+** I am not worrying about encapsulation as this is just an example
+
+**I also left our a constructor as it is not needed for this example
+
+So we could make an instance of this Dog as follows
+
+class MainClass{ 
+
+	public static void main(String [] args){ 
+
+		Dog dog = new Dog(); 
+
+		 
+
+	} 
+
+}  
+
+So now we have an instance of the dog class but how do I access the nice properties and methods I created?
+
+This is done with the dot notation. If I wanted to make my dog bark I could simply do:
+
+dog.bark(); 
+
+So if I would like to access a property such as to put the dog asleep I would then do:
+
+dog.isAsleep = true 
+
+So when the parentheses are after the dot notation this tells us that this is a method call and no parentheses lets us know that this is a property of the class.
+
+I used an example like this to show you how you create your own class but of course Java has its own classes with properties and methods you can.
+
+Lets declare an arraylist.
+
+List<String> words = new ArrayList<String>(); 
+
+So we have just declared a list of words (currently it contains no words)
+
+We could call the List’s size method (list is technically an interface but you call methods the same way)
+
+int size = words.size(); 
+
+Our variable size will now hold the value returned from the size method of the ArrayList class which in our case will be 0.
