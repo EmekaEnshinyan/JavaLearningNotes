@@ -22,3 +22,6 @@ method and allows it to be invoked using the () operator shown later."
                      \ methods "we talk with data and work for OBJECT"  |  
    
    I need to review the nature of constructors.
+   
+   4:33pm
+   Do not clearly understand the process and syntax reassigning instance fields within methods. is it merely using var reassignment with = operator?
