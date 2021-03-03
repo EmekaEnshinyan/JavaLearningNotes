@@ -1,0 +1,49 @@
+//This revision attmepts to perform operations when invoking method by inputting values in the actual method call
+public class Calculator{
+int numTwo;
+int numOne;
+public Calculator(){
+ 
+}
+//double check
+public int add(int numOne, int numTwo){
+int sum = numOne + numTwo;
+System.out.println("sum: " + sum);
+return sum;
+}
+
+public int subtract(int numOne, int numTwo){
+  int difference = numOne - numTwo;
+  System.out.println("difference: " + difference);
+  return difference;
+}
+
+public int multiply(int numOne, int numTwo){
+  int product = numOne * numTwo;
+  System.out.println("product: " + product);
+  return product;
+}
+
+public int divide(int numOne, int numTwo){
+  int division = numOne/numTwo;
+  System.out.println("division: " + division);
+  return division;
+}
+
+public double modulo(double numOne, double numTwo){
+  //may need to be int
+  double remainder = numOne % numTwo;
+  System.out.println("remainder: " + remainder);
+  return remainder;
+}
+
+public static void main(String[] args){
+System.out.println("testing");
+Calculator calculator = new Calculator();
+calculator.add(10, 5);
+calculator.subtract(10, 5);
+calculator.multiply(10, 5);
+calculator.divide(10, 5);
+calculator.modulo(10, 5);
+}
+}
