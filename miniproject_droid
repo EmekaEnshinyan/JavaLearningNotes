@@ -30,7 +30,7 @@ public String energyReport(){
 public static void main(String[] args){
 
 Droid botOne = new Droid("Doll Unit 0");
-System.out.println(botOne.name);
+System.out.println(botOne.toString());
 botOne.performTask("dancing");
 botOne.performTask("reading");
 botOne.performTask("writing");
