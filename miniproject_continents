@@ -1,0 +1,37 @@
+public class Continents {
+//prints out a continent and the largest city in it based on the value of an int
+  //!! if var is placed outside of main(), the program won't run. Instead the var has to be inside main()!
+  //int continent = 4;
+
+	public static void main(String[] args) {
+    int continent = 4;
+    switch (continent){
+      case 1:
+        System.out.println("North America: Mexico City, Mexico");
+        break;
+      case 2:
+        System.out.println("South America: Sao Paolo Brazil");
+        break;
+      case 3:
+        System.out.println("Europe: Moscow, Russia");
+        break;
+      case 4:
+        System.out.println("Africa: Lagos, Nigeria");
+        break;
+      case 5:
+        System.out.println("Asia: Shanghai, China");
+        break;
+      case 6:
+        System.out.println("Australia: Sydney, Australia");
+        break;
+      case 7:
+        System.out.println("Antartica: McMurdo Station, US");
+        break;
+      default:
+      //statement
+        System.out.println("Undefined continent!");
+    }
+		
+
+	}
+}
