@@ -15,3 +15,27 @@ public static double divide(int a result){
   result = b/a;
   System.out.print(result);
 }
+
+public class Newsfeed {
+
+  public Newsfeed(){
+    
+  }
+  //can initialize array as the modifier
+  public String[] getTopics(){
+    String[] topics = {"Opinion", "Tech", "Science", "Health"};
+    //the return value will correspond to what is in the body of the method
+    return topics;
+  }
+  // Create getTopics() below:
+  
+
+  public static void main(String[] args){
+    Newsfeed sampleFeed = new Newsfeed();
+    
+    String[] topics = sampleFeed.getTopics();
+    System.out.println(topics);
+    
+  }
+}
+
