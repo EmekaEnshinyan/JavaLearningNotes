@@ -1,0 +1,1 @@
+Java handles objects that are stored in memory and removing them by when no references to an object exists that object is assumed to be no longer needed and the memory occupied for the object can be reclaimed there's no need to explicitly destroy objects
