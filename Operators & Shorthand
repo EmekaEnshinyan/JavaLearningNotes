@@ -1,0 +1,12 @@
+Some operators are used for short hand:
+
+ex int x = 3 > 1 ? 5 : 10;
+
+this is symantically equivalent to
+
+int x;
+if (3 > 1){
+  x = 5;
+}else{
+  x = 10;
+}
