@@ -1,0 +1,20 @@
+The signiture of a method is just like the structure of variable declaration:
+
+declare var - [type] [var];/ [type] [var] = [value];
+
+method signiture - [modifier] [?] [type] [name](parameter)
+
+A method is a callable piece of code that you pass input to and either does something with the input, or return a value that typically is the result of doing something with that input. A method is defined with four required parts and one optional:
+optional static modifier
+required an access modifier - either public, private, protected, or it can be left blank, which is still a modifier, and is called default
+required return type - must be included. Use void if the method does not return anything
+requiredmethod name - follows Javas standard naming rules
+requiredmethod parameters - inside the parentheses, what is passed to the method from the calling code
+
+public static int min(int a, int b) {
+
+access modifier - public
+static - included
+return type - int
+method name - min
+method parameters - (int, int) with variable names a and b
