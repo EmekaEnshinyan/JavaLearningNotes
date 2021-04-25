@@ -9,7 +9,9 @@ if (3 > 1){
   x = 5;
 }else{
   x = 10;
-} */
+}
+
+salva veritate? */
 example: 
 package com.codegym.task.task02.task0217;
 
