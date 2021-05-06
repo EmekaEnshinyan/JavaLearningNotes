@@ -38,3 +38,9 @@ DELETE
 DELETE JOIN
 ON DELETE CASCADE
 REPLACE
+
+---CONNECTING TO THE SERVER---
+
+To connect to the MySQL Server, you use this command:
+
+shell>mysql -u root -p
