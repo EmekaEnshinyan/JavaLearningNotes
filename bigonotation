@@ -6,3 +6,37 @@ O(log n): Now I divide the class into two groups, then ask: “Is it on the left
 and ask again, and so on. Repeat the process till you are left with one student who has your pen. This is what you mean by O(log n). 
 I might need to do the O(n2) search if only one student knows on which student the pen is hidden. 
 I’d use the O(n) if one student had the pen and only they knew it. I’d use the O(log n) search if all the students knew, but would only tell me if I guessed the right side.
+
+statement;
+Is constant. The running time of the statement will not change in relation to N.
+
+for ( i = 0; i < N; i++ )
+     statement;
+Is linear. The running time of the loop is directly proportional to N. When N doubles, so does the running time.
+
+for ( i = 0; i < N; i++ ) {
+  for ( j = 0; j < N; j++ )
+    statement;
+}
+Is quadratic. The running time of the two loops is proportional to the square of N. When N doubles, the running time increases by N * N.
+
+while ( low <= high ) {
+  mid = ( low + high ) / 2;
+  if ( target < list[mid] )
+    high = mid - 1;
+  else if ( target > list[mid] )
+    low = mid + 1;
+  else break;
+}
+Is logarithmic. The running time of the algorithm is proportional to the number of times N can be divided by 2. This is because the algorithm divides the working area in half with each iteration.
+
+void quicksort ( int list[], int left, int right )
+{
+  int pivot = partition ( list, left, right );
+  quicksort ( list, left, pivot - 1 );
+  quicksort ( list, pivot + 1, right );
+}
+Is N * log ( N ). The running time consists of N loops (iterative or recursive) that are logarithmic, thus the algorithm is a combination of linear and logarithmic.
+
+In general, doing something with every item in one dimension is linear, doing something with every item in two dimensions is quadratic, and dividing the working area in half is logarithmic. There are other Big O measures such as cubic, exponential, and square root, but they're not nearly as common. Big O notation is described as O ( ) where is the measure. The quicksort algorithm would be described as O ( N * log ( N ) ).
+
