@@ -109,5 +109,8 @@ I'm also going to begin prepping for the Salesforce interview and tailoring my r
     1530
     After speaking with friends and others who have a long history in the field of fulstack engineering, I realized that I STILL hacve gaps in my knowledge on the fundamentals of Java. 
     For that reason, I have been rarely active on my GitHub and have been instead making a note/study Google Docs page with a tbale of contents.
+    1531
+    I have also decided to try to engage in two projects: the first being the ahckernews API, and the second being a rudimentary translator that has a basic frontend UI and a backend that will manipulate the data. 
+    I am thinking of have an "approximation algorithm" where if a word is typed in incorrectly, a dropdown menu will come up show possible words/phrases. Inspiration will be taken from Goole Trnslate and Jisho.org
     
 
